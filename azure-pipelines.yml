@@ -31,3 +31,11 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+- task: Npm@1
+  inputs:
+    command: 'install'
+- task: Grunt@0
+  inputs:
+    gruntFile: 'gruntfile.js'
+    targets: build
+    gruntCli: 'node_modules/grunt-cli/bin/grunt'
