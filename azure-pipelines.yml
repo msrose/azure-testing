@@ -18,5 +18,5 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
-- script: echo "HEY MY MANLY MAN DUDES WHAT IS UP ID DA HAUS"
+- script: echo "HEY MY MANLY MAN DUDES WHAT IS UP IN DA HAUS"
   displayName: "Greet manly man-dudes"
