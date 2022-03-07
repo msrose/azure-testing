@@ -1,0 +1,14 @@
+{
+  "name": "azure-testing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A dank azure thing",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msrose/azure-testing.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-cli": "^1.4.3"
+  }
+}

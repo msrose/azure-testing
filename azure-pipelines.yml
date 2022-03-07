@@ -33,7 +33,7 @@ steps:
     replaceExistingArchive: true
 - task: Npm@1
   inputs:
-    command: 'install'
+    command: 'ci'
 - task: Grunt@0
   inputs:
     gruntFile: 'gruntfile.js'
