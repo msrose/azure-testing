@@ -39,3 +39,7 @@ steps:
     gruntFile: 'gruntfile.js'
     targets: build
     gruntCli: 'node_modules/grunt-cli/bin/grunt'
+- task: VSTest@2
+  inputs:
+    testSelector: 'testRun'
+    searchFolder: '$(System.DefaultWorkingDirectory)'
